@@ -1,42 +1,72 @@
+/*
+  This section sets the default font for the entire body of the document.
+  It uses Arial, Helvetica, and sans-serif as fallback fonts in case Arial or Helvetica is not available.
+*/
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
+  This section applies common styles to both .para and .small-para classes.
+  The color is set to pure black (hsl(0, 0%, 0%)), and the font-weight is set to 800 (bold).
+*/
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
+/*
+  This section applies specific styles to the .para class.
+  The font-size is set to 22px.
+*/
 .para {
   font-size: 22px;
 }
 
+/*
+  This section applies specific styles to the .small-para class.
+  The font-size is set to 14px. The font-weight is also set to 800 (bold) to override the common style.
+*/
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-
+/*
+  This section applies styles to the #confirm-button element.
+  The background color is set to green, the text color is set to white, and the font-weight is set to bold.
+*/
 #confirm-button {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
+/*
+  This section applies styles to all elements with the .button class.
+  The background color is set to white, the text color is set to black, and the font-size is set to 20px.
+*/
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-
+/*
+  This section applies styles to all div elements with the .text class.
+  The text color is set to black, the font-size is set to 22px, and the font-weight is set to 100 (thin).
+*/
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
 
+/*
+  This section applies styles to all elements with the .child class that are children of a div element.
+  The text color is set to black, the font-weight is set to 800 (bold), and the font-size is set to 14px.
+*/
 div .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
