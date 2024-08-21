@@ -7,21 +7,44 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* 8px between the edge of the card and its content. */
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  /* 8px gap between each of the blue sections inside the card. */
+  padding: 8px;
+  /* The title of the card uses a 16px font. */
+  font-size: 16px;
+  /* There are 8px between the title text and the edge of the title section. */
+  margin-bottom: 8px;
 }
 
+/* The .content section is a blue section inside the card. */
 .content {
   background: #e3f4ff;
+  /* There is an 8px gap between the .content section and the .button-container section. */
+  margin-bottom: 8px;
+  /* There are 16px of space between the edge of the .content section and its content,
+     and 8px of space on the sides of the content. */
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  /* Everything inside the .button-container section is centered. */
+  text-align: center;
+  /* 8px padding. */
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  /* The Big Button is centered on its own line. */
+  display: block;
+  margin: 0 auto;
+  /* The Big Button has 24px space on the sides, and 8px on top and bottom. */
+  padding: 8px 24px;
 }

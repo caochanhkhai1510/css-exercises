@@ -1,28 +1,41 @@
+/*
+This CSS block sets the maximum width of the body to 600px and centers it horizontally.
+*/
 body {
   max-width: 600px;
   margin: 0 auto;
 }
 
+/*
+This CSS block styles the "one" class. It sets the background color to pink,
+the border to a 3px solid blue, the padding to 32px, and the margin to 12px.
+*/
 .one {
   background: pink;
   border: 3px solid blue;
-  /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 12px;
 }
 
+/*
+This CSS block styles the "two" class. It sets the background color to lightblue,
+the border to a 3px solid purple, and the bottom margin to 48px.
+*/
 .two {
   background: lightblue;
   border: 3px solid purple;
-  /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
+/*
+This CSS block styles the "three" class. It sets the background color to peachpuff,
+the border to a 3px solid brown, the width to 200px, the padding to 32px,
+and the left margin to auto to center it horizontally.
+*/
 .three {
   background: peachpuff;
   border: 3px solid brown;
   width: 200px;
-  /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  margin-left: auto;
 }
