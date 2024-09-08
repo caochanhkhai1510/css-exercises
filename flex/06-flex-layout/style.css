@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* The buttons have an appropriate amount of padding */
+  padding: 8px 16px;
 }
 
 input {
@@ -23,4 +27,52 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header, 
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* The header and footer have padding */
+  padding: 16px;
+}
+
+.footer {
+  /* The footer has a light gray background (#eeeeee) */
+  background-color: #eee;
+}
+
+.left-links, .right-links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* The logo, input and buttons are centered in the screen */
+  justify-content: center;
+  align-items: center;
+  /* There is space between the logo, input and buttons */
+  gap: 16px;
+  /* The footer is at the bottom, and they stay in place if you resize your screen */
+  flex: 1;
+}
+
+
+ul {
+  display: flex;
+  /* The links in the header and footer are pushed to either side */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+a {
+  /* The links in the header and footer are pushed to either side */
+  text-decoration: none;
+  color: #666;
 }
